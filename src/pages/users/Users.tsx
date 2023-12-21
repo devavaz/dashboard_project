@@ -3,6 +3,13 @@ import "./users.scss"
 
 export default function Users() {
   return (
-    <div className="users">Users</div>
+    <div className="users">
+      <div className="info">
+        <h1> Users </h1>
+         <button>Add new users</button>
+      </div>
+
+
+    </div>
   )
 }
